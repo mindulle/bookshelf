@@ -1,7 +1,6 @@
-title: Foam Jekyll Template
-theme: jekyll-theme-primer
+title: Mindulle's bookshelf📚
 
-baseurl: /foam-jekyll-template
+baseurl: /bookshelf
 
 highlighter: rouge
 gist:
@@ -11,16 +10,20 @@ kramdown:
   syntax_highlighter: rouge
 
 readme_index:
-  enabled:          true
+  enabled: true
 
-repository: hikerpig/foam-jekyll-template
+repository: mindulle/bookshelf
 
 # Generate permalinks in format specified in: https://jekyllrb.com/docs/permalinks/#built-in-formats
 permalink: pretty
 
 plugins:
-- jekyll-optional-front-matter
-- jekyll-readme-index
-- jekyll-default-layout
-- jekyll-titles-from-headings
-- jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+
+sass:
+  sass_dir: _sass
+  style: compressed

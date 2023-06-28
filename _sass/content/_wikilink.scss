@@ -1,0 +1,9 @@
+.wikilink:before {
+  content: '[[';
+  opacity: 0.5;
+}
+
+.wikilink:after {
+  content: ']]';
+  opacity: 0.5;
+}

@@ -61,3 +61,35 @@ ul {
     margin-left: 5px;
   }
 }
+
+// Copy and pasted from jekyll alembic theme. visit to see origin one.
+// https://github.com/daviddarnes/alembic/blob/18675fc841397c8a5bee01ddf9cfea257895ec58/_sass/_theme.scss#L175C1-L204C2
+.list {
+  list-style: none;
+  &--nav {
+    overflow: hidden;
+    margin-bottom: var(--listHeight, 0);
+  }
+  .item--post,
+  .item--result,
+  .item--category {
+    margin-left: 0;
+  }
+}
+
+.item {
+  &--nav {
+    // @include breakpoint(break-1) {
+    //   margin-left: .4rem;
+    //   display: inline-block;
+    // }
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+  &--current {
+    a {
+      color: $success;
+    }
+  }
+}

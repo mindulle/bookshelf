@@ -2,20 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>{{ page.title }}</title>
     <link
       rel="stylesheet"
       href="{{ '/assets/css/styles.css' | relative_url }}" />
   </head>
   <body>
-    <div class="row flex-center"">
-      <div class="col">
+    <div style="max-width: 1440px;" class="row site">
+      <div class="col-fill col">
         <div class="paper">
           {{ content }}
         </div>
       </div>
+      <!-- include fix-search-btn.html -->
+      {% include fix-search-btn.html %}
     </div>
-    {% include fix-search-btn.html %}
     <script src="{{ '/assets/js/detectAutoDarkMode.js' | relative_url }}"></script>
   </body>
 </html>

@@ -2,15 +2,79 @@ title: Mindulle's bookshelf📚
 
 baseurl: /bookshelf
 
+collections:
+  Posts:
+    output: true
+  Books:
+    output: true
+  Items:
+    output: true
+  Missions:
+    output: true
+  Monsters:
+    output: true
+  Production:
+    output: true
+  Quests:
+    output: true
+  Skills:
+    output: true
+  Weapons:
+    output: true
+
+defaults:
+  - scope:
+      path: "posts/*"
+      type: "posts"
+    values:
+      layout: "foam"
+  - scope:
+      path: "collection/books/*"
+      type: "books"
+    values:
+      layout: "foam"
+  - scope:
+      path: "collection/items/*"
+      type: "items"
+    values:
+      layout: "foam"
+  - scope:
+      path: "collection/missions/*"
+      type: "missions"
+    values:
+      layout: "foam"
+  - scope:
+      path: "collection/monsters/*"
+      type: "monsters"
+    values:
+      layout: "foam"
+  - scope:
+      path: "collection/production/*"
+      type: "production"
+    values:
+      layout: "foam"
+  - scope:
+      path: "collection/quests/*"
+      type: "quests"
+    values:
+      layout: "foam"
+  - scope:
+      path: "collection/skills/*"
+      type: "skills"
+    values:
+      layout: "foam"
+  - scope:
+      path: "collection/weapons/*"
+      type: "weapons"
+    values:
+      layout: "foam"
+
 highlighter: rouge
 gist:
   noscript: false
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-
-readme_index:
-  enabled: true
 
 repository: mindulle/bookshelf
 

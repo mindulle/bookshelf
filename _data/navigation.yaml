@@ -4,17 +4,17 @@
   link: /posts/
 - name: Books
   link: /collection/books/
-- name: Books
+- name: Items
   link: /collection/items/
-- name: Books
+- name: Missions
   link: /collection/missions/
-- name: Books
+- name: Monsters
   link: /collection/monsters/
-- name: Books
+- name: Production
   link: /collection/production/
-- name: Books
+- name: Quests
   link: /collection/quests/
-- name: Books
+- name: Skills
   link: /collection/skills/
-- name: Books
+- name: Weapons
   link: /collection/weapons/

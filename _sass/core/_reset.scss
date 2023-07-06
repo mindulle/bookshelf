@@ -6,8 +6,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
+
 body {
-  margin: 0
+  margin: 0;
 }
 article,
 aside,
@@ -200,3 +201,38 @@ html {
   box-sizing: inherit;
 }
 /* stylelint-enable */
+
+// My customized backgrounds
+html {
+  background-color: #fefbf4;
+  opacity: 0.8;
+  background-size: 20px 20px;
+  background-image:  repeating-linear-gradient(0deg, #d8b6af, #d8b6af 1px, #fefbf4 1px, #fefbf4);
+}
+
+@media (prefers-color-scheme:dark) {
+  html.dark {
+    background-color: #41403e;
+    opacity: 0.8;
+    background: radial-gradient(circle, transparent 20%, #41403e 20%, #41403e 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #41403e 20%, #41403e 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#000d3d 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #000d3d 2px, #41403e 2px) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+  }
+}
+
+// for search form styling. visit below page in order to visit origin repository.
+// https://github.com/daviddarnes/alembic/blob/18675fc841397c8a5bee01ddf9cfea257895ec58/_sass/_theme.scss#L266
+.form {
+  margin-bottom: .8rem;
+}
+
+.form {
+  // position: relative;
+  &__legend {
+    font-style: italic;
+    color: $success;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    clip: rect(0 0 0 0);
+  }
+}

@@ -1,6 +1,7 @@
 title: Mindulle's bookshelf📚
 
 baseurl: /bookshelf
+url: https://mindulle.github.io/bookshelf
 
 collections:
   Posts:

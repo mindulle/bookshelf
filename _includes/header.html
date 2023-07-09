@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  {% include head/head.html %}
+  <body>
+    <div style="max-width: 1440px;" class="row site">
+      <div class="col-fill col">
+        <div class="paper">
+          {{ content }}
+        </div>
+      </div>
+      <!-- include fix-search-btn.html -->
+      {% include search/fix-search-btn.html %}

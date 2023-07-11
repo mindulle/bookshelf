@@ -55,6 +55,11 @@ defaults:
     values:
       layout: "foam"
   - scope:
+      path: "collection/talent/*"
+      type: "talent"
+    values:
+      layout: "foam"
+  - scope:
       path: "collection/skills/*"
       type: "skills"
     values:

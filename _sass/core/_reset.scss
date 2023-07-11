@@ -214,8 +214,8 @@ html {
   html.dark {
     background-color: #41403e;
     opacity: 0.8;
-    background: radial-gradient(circle, transparent 20%, #41403e 20%, #41403e 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #41403e 20%, #41403e 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#000d3d 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #000d3d 2px, #41403e 2px) -1px 0;
-    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(0deg, #000000, #000000 1px, #41403e 1px, #41403e);
   }
 }
 

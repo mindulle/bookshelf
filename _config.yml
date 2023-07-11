@@ -4,8 +4,6 @@ baseurl: /bookshelf
 url: https://mindulle.github.io/bookshelf
 
 collections:
-  Posts:
-    output: true
   Books:
     output: true
   Items:
@@ -18,17 +16,14 @@ collections:
     output: true
   Quests:
     output: true
+  Talent:
+    output: true
   Skills:
     output: true
   Weapons:
     output: true
 
 defaults:
-  - scope:
-      path: "posts/*"
-      type: "posts"
-    values:
-      layout: "foam"
   - scope:
       path: "collection/books/*"
       type: "books"

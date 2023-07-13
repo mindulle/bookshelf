@@ -19,7 +19,7 @@ sitemap: false
 @import 'content/lists';
 @import 'content/markdown';
 @import 'content/tables';
-@import 'content/wikilink';
+@import 'content/wikilink'; /* added by me */
 
 /* Utilities */
 @import 'utilities/borders';
@@ -34,7 +34,8 @@ sitemap: false
 @import 'components/buttons';
 @import 'components/cards';
 @import 'components/forms';
-@import 'components/modals';
+@import 'components/mermaid'; /* added by me */
+@import 'components/modals'; /* customized */
 @import 'components/popovers';
 @import 'components/progress';
 @import 'components/tabs';

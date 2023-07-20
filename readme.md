@@ -18,3 +18,5 @@
 - 비싼 수업료를 모두 지불하게 된다.
 <!-- <meta name='viewport' content='width=device-width, initial-scale=1'> -->
 - 반응형 디자인의 헤더가 얼마나 중요한 요소인지 이해하였다.
+- collapsible은 인풋 태그의 타입이 체크박스인 반면, accordian은 인풋 태그의 타입이 라디오 타입이다.
+- collapsible은 한번에 여러 메뉴를 열 수 있지만, 아코디언은 한번에 하나만 열 수 있다는 점이 중요한 차이점.

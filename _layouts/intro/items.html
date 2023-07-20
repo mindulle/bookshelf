@@ -1,0 +1,37 @@
+---
+layout: foam
+---
+
+<div class="row flex-spaces tabs">
+  {% include collection/area-tabs.html %}
+  <div class="content" id="content1">
+    <table class="table-hover">
+      {% include collection/items/thead.html %}
+      {% include collection/items/tbody-dev.html %}
+    </table>
+  </div>
+  <div class="content" id="content2">
+    <table class="table-hover">
+      {% include collection/items/thead.html %}
+      {% include collection/items/tbody-design.html %}
+    </table>
+  </div>
+  <div class="content" id="content3">
+    <table class="table-hover">
+      {% include collection/items/thead.html %}
+      {% include collection/items/tbody-frontend.html %}
+    </table>
+  </div>
+  <div class="content" id="content4">
+    <table class="table-hover">
+      {% include collection/items/thead.html %}
+      {% include collection/items/tbody-backend.html %}
+    </table>
+  </div>
+  <div class="content" id="content5">
+    <table class="table-hover">
+      {% include collection/items/thead.html %}
+      {% include collection/items/tbody-uiux.html %}
+    </table>
+  </div>
+</div>

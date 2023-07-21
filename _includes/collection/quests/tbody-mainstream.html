@@ -1,0 +1,40 @@
+<tbody>
+  {% include collection/quests/mood-filter.html %}
+  {% assign mainstream_quests = site.Quests | where: 'tab', 'mainstream' %}
+  {% for quest in mainstream_quests %}
+    <tr>
+      <td><a href="{{ quest.url }}">{{ quest.title }}</a></td>
+      <td><strong>{{ quest.provider }}</strong></td>
+      <td>
+        {% if quest.progress < 20 %}
+        <div class="progress margin-bottom">
+          <div class="bar striped w-{{ quest.progress }}"></div>
+        </div>
+        {% elsif quest.progress < 40 %}
+        <div class="progress margin-bottom">
+          <div class="bar striped secondary w-{{ quest.progress }}"></div>
+        </div>
+        {% elsif quest.progress < 60 %}
+        <div class="progress margin-bottom">
+          <div class="bar striped success w-{{ quest.progress }}"></div>
+        </div>
+        {% elsif quest.progress < 80 %}
+        <div class="progress margin-bottom">
+          <div class="bar striped warning w-{{ quest.progress }}"></div>
+        </div>
+        {% elsif quest.progress < 100 %}
+        <div class="progress margin-bottom">
+          <div class="bar striped danger w-{{ quest.progress }}"></div>
+        </div>
+        {% else quest.progress == 100 %}
+        <div class="progress margin-bottom">
+          <div class="bar striped muted w-{{ quest.progress }}"></div>
+        </div>
+        {% endif %}
+      </td>
+      <td>
+        {{ quest.symbol }}
+      </td>
+    </tr>
+  {% endfor %}
+</tbody>

@@ -3,7 +3,7 @@
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "editor.lineHeight": 24,
-  "workbench.colorTheme": "Remedy - Bright (Tilted)",
+  "workbench.colorTheme": "Remedy - Dark (Tilted)",
   "[markdown]": {
     "editor.quickSuggestions": {
       "comments": "on",
@@ -13,5 +13,8 @@
   },
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
-  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension"
+  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+  "workbench.preferredLightColorTheme": "Remedy - Bright (Tilted)",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Remedy - Dark (Tilted)"
 }

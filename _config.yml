@@ -1,7 +1,7 @@
 title: Mindulle's bookshelf📚
 
 baseurl: /bookshelf
-url: https://mindulle.github.io/
+url: https://mindulle.github.io
 
 collections_dir: docs
 collections:

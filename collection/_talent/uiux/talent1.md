@@ -4,10 +4,9 @@ title:  "law 1"
 tags: ["computer", "design"]
 
 # metadata for organization
-tab: uiux
-name: sample1
-type: law
-description: sample description
+tab: UI / UX
+type: term # term | pattern | theory | principle | law
+mood: 🧀 # 🌵 | 🍕 | ⭐ | 💘 | 🧀 | 🐸
 ---
 
 law 1

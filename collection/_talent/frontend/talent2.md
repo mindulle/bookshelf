@@ -4,10 +4,9 @@ title:  "law 2"
 tags: ["computer", "design"]
 
 # metadata for organization
-tab: frontend
-name: sample2
-type: pattern
-description: sample description
+tab: Frontend
+type: pattern # term | pattern | theory | principle | law
+mood: 💘 # 🌵 | 🍕 | ⭐ | 💘 | 🧀 | 🐸
 ---
 
 law 2

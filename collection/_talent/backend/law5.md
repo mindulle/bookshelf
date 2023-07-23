@@ -4,9 +4,8 @@ title:  "law 5"
 tags: ["computer", "design"]
 
 # metadata for organization
-tab: backend
-name: sample5
-type: law
-description: sample description
+tab: Backend
+type: law # term | pattern | theory | principle | law
+mood: 🌵 # 🌵 | 🍕 | ⭐ | 💘 | 🧀 | 🐸
 ---
 law 5

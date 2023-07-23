@@ -1,28 +1,37 @@
 title: Mindulle's bookshelf📚
 
 baseurl: /bookshelf/
-url: https://mindulle.github.io/bookshelf
+url: https://mindulle.github.io/bookshelf/
 
 collections_dir: docs
 collections:
   Books:
     output: true
+    permalink: /:collection/:name
   Items:
     output: true
+    permalink: /:collection/:name
   Missions:
     output: true
+    permalink: /:collection/:name
   Monsters:
     output: true
+    permalink: /:collection/:name
   Production:
     output: true
+    permalink: /:collection/:name
   Quests:
     output: true
+    permalink: /:collection/:name
   Talent:
     output: true
+    permalink: /:collection/:name
   Skills:
     output: true
+    permalink: /:collection/:name
   Weapons:
     output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:

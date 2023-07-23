@@ -1,9 +1,0 @@
-- name: term
-  state: warning
-- name: pattern
-  state: danger
-- name: theory
-  state: secondary
-- name: principle
-  state: success
-- name: law

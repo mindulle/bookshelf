@@ -1,4 +1,0 @@
----
-title: Bookshelf❤
-layout: home
----

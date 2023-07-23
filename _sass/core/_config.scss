@@ -284,6 +284,7 @@ $colors: (primary, $primary, $primary-light, $primary-text),
   // header, Nanum Pen script
   font-family: 'Patrick Hand SC';
   src: url('../fonts/NanumPenScript-Regular.ttf') format('truetype');
+  /* prettier-ignore */
   unicode-range: U+ac00-U+d7a3, U+0030-0039;
 }
 
@@ -291,6 +292,7 @@ $colors: (primary, $primary, $primary-light, $primary-text),
   // body, Nanum Brush Script
   font-family: 'Neucha';
   src: url('../fonts/NanumBrushScript-Regular.ttf') format('truetype');
+  /* prettier-ignore */
   unicode-range: U+ac00-U+d7a3, U+0030-0039;
 }
 

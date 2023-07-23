@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "jekyll"
+gem "jekyll", "3.9.0"
 gem "jekyll-optional-front-matter"
 gem "jekyll-default-layout"
 gem "jekyll-readme-index"

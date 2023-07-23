@@ -1,7 +1,7 @@
 {% for area in site.data.areas %}
 <div class="content" id="content{{ forloop.index }}">
     <div class="collapsible">
-        {% assign talent = site.Talent | where: "tab", area.name %}
+        {% assign talent = site.talent | where: "tab", area.name %}
         {% for law in talent %}
         <input 
         type="checkbox"

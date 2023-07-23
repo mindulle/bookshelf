@@ -3,79 +3,70 @@ title: Mindulle's bookshelf📚
 baseurl: /bookshelf/
 url: https://mindulle.github.io/bookshelf
 
-collections_dir: docs/
+collections_dir: docs
 collections:
   Books:
     output: true
-    permalink: /:collection/:name
   Items:
     output: true
-    permalink: /:collection/:name
   Missions:
     output: true
-    permalink: /:collection/:name
   Monsters:
     output: true
-    permalink: /:collection/:name
   Production:
     output: true
-    permalink: /:collection/:name
   Quests:
     output: true
-    permalink: /:collection/:name
   Talent:
     output: true
-    permalink: /:collection/:name
   Skills:
     output: true
-    permalink: /:collection/:name
   Weapons:
     output: true
-    permalink: /:collection/:name
 
 defaults:
   - scope:
-      path: "books"
+      path: "books/*"
       type: "books"
     values:
       layout: "foam"
   - scope:
-      path: "items"
+      path: "items/*"
       type: "items"
     values:
       layout: "foam"
   - scope:
-      path: "missions"
+      path: "missions/*"
       type: "missions"
     values:
       layout: "foam"
   - scope:
-      path: "monsters"
+      path: "monsters/*"
       type: "monsters"
     values:
       layout: "foam"
   - scope:
-      path: "production"
+      path: "production/*"
       type: "production"
     values:
       layout: "foam"
   - scope:
-      path: "_quests"
+      path: "quests/*"
       type: "quests"
     values:
       layout: "foam"
   - scope:
-      path: "_talent"
+      path: "talent/*"
       type: "talent"
     values:
       layout: "foam"
   - scope:
-      path: "_skills"
+      path: "skills/*"
       type: "skills"
     values:
       layout: "foam"
   - scope:
-      path: "_weapons"
+      path: "weapons/*"
       type: "weapons"
     values:
       layout: "foam"

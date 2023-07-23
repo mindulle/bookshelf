@@ -35,47 +35,47 @@ collections:
 
 defaults:
   - scope:
-      path: "books"
+      path: "_books"
       type: "books"
     values:
       layout: "foam"
   - scope:
-      path: "items"
+      path: "_items"
       type: "items"
     values:
       layout: "foam"
   - scope:
-      path: "missions"
+      path: "_missions"
       type: "missions"
     values:
       layout: "foam"
   - scope:
-      path: "monsters"
+      path: "_monsters"
       type: "monsters"
     values:
       layout: "foam"
   - scope:
-      path: "production"
+      path: "_production"
       type: "production"
     values:
       layout: "foam"
   - scope:
-      path: "quests"
+      path: "_quests"
       type: "quests"
     values:
       layout: "foam"
   - scope:
-      path: "talent"
+      path: "_talent"
       type: "talent"
     values:
       layout: "foam"
   - scope:
-      path: "skills"
+      path: "_skills"
       type: "skills"
     values:
       layout: "foam"
   - scope:
-      path: "weapons"
+      path: "_weapons"
       type: "weapons"
     values:
       layout: "foam"

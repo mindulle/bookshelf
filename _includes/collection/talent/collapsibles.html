@@ -1,0 +1,46 @@
+{% for area in site.data.areas %}
+<div class="content" id="content{{ forloop.index }}">
+    <div class="collapsible">
+        {% assign talent = site.Talent | where: "tab", area.name %}
+        {% for law in talent %}
+        <input 
+        type="checkbox"
+        class="{{ law.mood }} {{ law.type }}" 
+        id="collapsible{{ forloop.parentloop.index }}-{{ forloop.index }}" 
+        name="collapsible"
+        >
+        <label 
+        for="collapsible{{ forloop.parentloop.index }}-{{ forloop.index }}" 
+        class="{{ law.mood }} {{ law.type }}"
+        >
+            {% if law.type == 'law' %}
+            <span class="badge">{{ law.type }}</span>
+            {{ law.title }}
+            <span class="border">{{ law.mood }}</span>
+            {% elsif law.type == 'theory' %}
+            <span class="badge secondary">{{ law.type }}</span>
+            {{ law.title }}
+            <span class="border border-secondary">{{ law.mood }}</span>
+            {% elsif law.type == 'principle' %}
+            <span class="badge success">{{ law.type }}</span>
+            {{ law.title }}
+            <span class="border border-success">{{ law.mood }}</span>
+            {% elsif law.type == 'pattern' %}
+            <span class="badge danger">{{ law.type }}</span>
+            {{ law.title }}
+            <span class="border border-danger">{{ law.mood }}</span>
+            {% elsif law.type == 'term' %}
+            <span class="badge warning">{{ law.type }}</span>
+            {{ law.title }}
+            <span class="border border-warning">{{ law.mood }}</span>
+            {% endif %}
+        </label>
+        <div class="{{ law.mood }} {{ law.type }} collapsible-body">
+            <span>
+                {{ law.content }}
+            </span>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}

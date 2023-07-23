@@ -1,0 +1,17 @@
+{% for type in site.data.talent-types %}
+<label style="margin: 0.75rem;" for="paperChecks{{ forloop.index }}" class="paper-check">
+    <input 
+    type="checkbox" 
+    id="paperChecks{{ forloop.index }}"
+    name="paperChecks" 
+    value="option {{ forloop.index }}" 
+    onclick="filterByTalentType('paperChecks{{ forloop.index }}')"
+    checked 
+    />
+    <span>
+        <span class="text-{{ type.state }}">
+            <strong>{{ type.name }}</strong>
+        </span>
+    </span>
+</label>
+{% endfor %}

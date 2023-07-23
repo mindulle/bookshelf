@@ -28,7 +28,7 @@ jobs:
           bundler-cache: true
 
       - name: Build 🏗
-        run: bundle exec jekyll build --trace
+        run: bundle exec jekyll build --trace --destination ./docs
 
       - name: Deploy to GH Pages 🚀
         if: ${{ github.event_name != 'pull_request' }}

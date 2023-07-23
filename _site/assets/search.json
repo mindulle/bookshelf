@@ -9,7 +9,7 @@
         "title": "Collection - Books",
         "excerpt": "Welcome\n\n",
         "content": "Welcome\n\nHello world, this is my first Jekyll blog post.\n\nI hope you like it!\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
-        "url": "/Books/books/"
+        "url": "/bookshelf/books/books/"
       },
     
   
@@ -19,7 +19,7 @@
         "title": "Collection - Items",
         "excerpt": "\n",
         "content": "\n",
-        "url": "/Items/items/"
+        "url": "/bookshelf/items/items/"
       },
     
   
@@ -29,7 +29,7 @@
         "title": "Collection - Missions",
         "excerpt": "Welcome\n\n",
         "content": "Welcome\n\nHello world, this is my first Jekyll blog post.\n\nI hope you like it!\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
-        "url": "/Missions/missions/"
+        "url": "/bookshelf/missions/missions/"
       },
     
   
@@ -39,8 +39,11 @@
         "title": "Collection - Monsters",
         "excerpt": "Welcome\n\n",
         "content": "Welcome\n\nHello world, this is my first Jekyll blog post.\n\nI hope you like it!\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
-        "url": "/Monsters/monsters/"
+        "url": "/bookshelf/monsters/monsters/"
       },
+    
+  
+    
     
   
     
@@ -49,7 +52,7 @@
         "title": "Collection - Production",
         "excerpt": "Welcome\n\n",
         "content": "Welcome\n\nHello world, this is my first Jekyll blog post.\n\nI hope you like it!\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
-        "url": "/Production/production/"
+        "url": "/bookshelf/production/production/"
       },
     
   
@@ -59,42 +62,42 @@
         "title": "Quest 1",
         "excerpt": "Art\n",
         "content": "Art\n",
-        "url": "/Quests/art/quest1/"
+        "url": "/bookshelf/quests/art/quest1/"
       },
     
       {
         "title": "Quest 5",
         "excerpt": "Event\n",
         "content": "Event\n",
-        "url": "/Quests/event/quest5/"
+        "url": "/bookshelf/quests/event/quest5/"
       },
     
       {
         "title": "Quest 4",
         "excerpt": "Mainstream\n",
         "content": "Mainstream\n",
-        "url": "/Quests/mainstream/quest4/"
+        "url": "/bookshelf/quests/mainstream/quest4/"
       },
     
       {
         "title": "Quest 2",
         "excerpt": "Normal\n",
         "content": "Normal\n",
-        "url": "/Quests/normal/quest2/"
+        "url": "/bookshelf/quests/normal/quest2/"
       },
     
       {
         "title": "Collection - Quests",
         "excerpt": "\n",
         "content": "\n",
-        "url": "/Quests/quests/"
+        "url": "/bookshelf/quests/quests/"
       },
     
       {
         "title": "Quest 3",
         "excerpt": "Repetitive\n",
         "content": "Repetitive\n",
-        "url": "/Quests/repetitive/quest3/"
+        "url": "/bookshelf/quests/repetitive/quest3/"
       },
     
   
@@ -104,14 +107,14 @@
         "title": "Prolog - computer science",
         "excerpt": "\n",
         "content": "\n",
-        "url": "/Skills/computer-science/"
+        "url": "/bookshelf/skills/computer-science/"
       },
     
       {
         "title": "Collection - Skills",
         "excerpt": "\n",
         "content": "\n",
-        "url": "/Skills/skills/"
+        "url": "/bookshelf/skills/skills/"
       },
     
   
@@ -121,42 +124,42 @@
         "title": "law 5",
         "excerpt": "law 5\n",
         "content": "law 5\n",
-        "url": "/Talent/backend/law5/"
+        "url": "/bookshelf/talent/backend/law5/"
       },
     
       {
         "title": "law 4",
         "excerpt": "law 4\n",
         "content": "law 4\n",
-        "url": "/Talent/design/law4/"
+        "url": "/bookshelf/talent/design/law4/"
       },
     
       {
         "title": "law 3",
         "excerpt": "law 3\n",
         "content": "law 3\n",
-        "url": "/Talent/dev/talent3/"
+        "url": "/bookshelf/talent/dev/talent3/"
       },
     
       {
         "title": "law 2",
         "excerpt": "law 2\n",
         "content": "law 2\n",
-        "url": "/Talent/frontend/talent2/"
+        "url": "/bookshelf/talent/frontend/talent2/"
       },
     
       {
         "title": "Collection - talent",
         "excerpt": "\n",
         "content": "\n",
-        "url": "/Talent/talent/"
+        "url": "/bookshelf/talent/talent/"
       },
     
       {
         "title": "law 1",
         "excerpt": "law 1\n",
         "content": "law 1\n",
-        "url": "/Talent/uiux/talent1/"
+        "url": "/bookshelf/talent/uiux/talent1/"
       },
     
   
@@ -166,11 +169,8 @@
         "title": "Collection - Weapons",
         "excerpt": "Welcome\n\n",
         "content": "Welcome\n\nHello world, this is my first Jekyll blog post.\n\nI hope you like it!\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
-        "url": "/Weapons/weapons/"
+        "url": "/bookshelf/weapons/weapons/"
       },
-    
-  
-    
     
   
   
@@ -179,21 +179,21 @@
     "title": "Bookshelf❤",
     "excerpt": "\n",
     "content": "\n",
-    "url": "/"
+    "url": "/bookshelf/"
   },
   
   {
     "title": "Foam tips",
     "excerpt": "\n",
     "content": "Foam tips\n\nFor up-to-date tips, see Foam Recipes.\n",
-    "url": "/foam-tips/"
+    "url": "/bookshelf/foam-tips/"
   },
   
   {
     "title": "Inbox",
     "excerpt": "\n",
     "content": "Inbox\n\n\n  Here you can write disorganised notes to be categorised later\n  Bullet points are useful, but it could be free form text as well\n  Sometimes it’s better to just get things off your mind quickly, rather than stop to think where it belongs\n  But don’t let this list get too long\n  Move information to more specific documents and link to them.\n    \n      This helps you navigate between documents quickly\n      For example, you can Cmd+Click this: [[todo]]\n    \n  \n  Some notes don’t end up making sense the next day\n  That’s ok, you can just delete them!\n    \n      You can always find them in your git history, if you really need it!\n[//begin]: # “Autogenerated link references for markdown compatibility”\n[todo]: todo “Todo”\n[//end]: # “Autogenerated link references”ces”\n    \n  \n\n",
-    "url": "/inbox/"
+    "url": "/bookshelf/inbox/"
   }
   
 ]

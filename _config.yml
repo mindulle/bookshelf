@@ -5,23 +5,23 @@ url: https://mindulle.github.io/bookshelf
 
 collections_dir: docs
 collections:
-  Books:
+  books:
     output: true
-  Items:
+  items:
     output: true
-  Missions:
+  missions:
     output: true
-  Monsters:
+  monsters:
     output: true
-  Production:
+  production:
     output: true
-  Quests:
+  quests:
     output: true
-  Talent:
+  talent:
     output: true
-  Skills:
+  skills:
     output: true
-  Weapons:
+  weapons:
     output: true
 
 defaults:

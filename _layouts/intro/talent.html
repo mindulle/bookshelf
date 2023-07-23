@@ -1,22 +1,33 @@
 ---
-layout: foam
+layout: default
 ---
-<div class="row flex-spaces tabs">
-  {% include collection/area-tabs.html %}
-
-  <div class="content" id="content1">
-    {% include collection/talent/collapsible-dev.html %}
+<style>
+  .hide {
+    display: none !important;
+  }
+</style>
+<div class="row">
+  <div class="sm-12 md-8 col">
+    <div class="row flex-spaces tabs paper">  
+      {% include collection/area-tab-labels.html %}
+      <!-- contents for each tabs -->
+      {% include collection/talent/collapsibles.html %}
+    </div>
   </div>
-  <div class="content" id="content2">
-    {% include collection/talent/collapsible-design.html %}
-  </div>
-  <div class="content" id="content3">
-    {% include collection/talent/collapsible-frontend.html %}
-  </div>
-  <div class="content" id="content4">
-    {% include collection/talent/collapsible-backend.html %}
-  </div>
-  <div class="content" id="content5">
-    {% include collection/talent/collapsible-uiux.html %}
+  <div class="sm-12 md-4 col">
+    <!-- include collection/talent/mood-filter.html -->
+    <div class="container-xs paper">
+      <div class="row flex-center">
+        <h2>Filters</h2>
+      </div>
+      <div class="row flex-center form-group">
+        {% include collection/talent/type-filter.html %}
+      </div>
+      <div class="row flex-center form-group">
+        {% include collection/talent/mood-filter.html %}
+      </div>
+    </div>
   </div>
 </div>
+<script type="text/javascript" src="{{ '/assets/js/filter-by-mood.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/filter-by-talent-type.js' | relative_url }}"></script>

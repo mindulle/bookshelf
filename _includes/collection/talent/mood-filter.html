@@ -1,0 +1,23 @@
+{% for mood in site.data.moods %}
+<label for="paperSwitch{{ forloop.index }}" class="paper-switch-tile">
+    <input 
+    type="checkbox" 
+    class="{{ mood.state }}"
+    id="paperSwitch{{ forloop.index }}" 
+    name="paperSwitch{{ forloop.index }}"
+    onclick="filterByMood('paperSwitch{{ forloop.index }}')"
+    checked
+    />
+    <div class="paper-switch-tile-card border">
+        <div class="paper-switch-tile-card-front border border-{{ mood.state }}">{{ mood.emoji }}
+        </div>
+        <div
+        class="paper-switch-tile-card-back border border-{{ mood.state }} background-{{ mood.state }}">
+        {{ mood.name }}
+        </div>
+    </div>
+</label>
+{% endfor %}
+
+
+

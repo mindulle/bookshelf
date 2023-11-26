@@ -1,8 +1,18 @@
 ---
-layout: foam
+layout: base
 ---
 
-<!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
+<div class="row flex-center">
+  <div class="card" style="width: 20rem;">
+    <img class="image-bottom" src="https://picsum.photos/id/25/550/250" alt="Card example image" loading="lazy">
+    <div class="card-body">
+      <h4 class="card-title">{{ page.desc }}</h4>
+      <h5 class="card-subtitle">{{ page.name }}</h5>
+      <p class="card-text">{{ content }}</p>
+      <form action={{ page.dir }}>
+        <button>Let me go here!</button>
+      </form>
+    </div>
+  </div>
+</div>
 
-{{ content }}
-{% include main-cards.html %}

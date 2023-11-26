@@ -1,0 +1,15 @@
+<div class="row flex-center">
+  {% for nav in site.data.navigation %}
+    <div class="card" style="width: 20rem;">
+      <img class="image-bottom" src="https://picsum.photos/id/25/550/250" alt="Card example image" loading="lazy">
+      <div class="card-body">
+        <h4 class="card-title">{{ nav.name }}</h4>
+        <h5 class="card-subtitle">Nice looking subtitle.</h5>
+        <p class="card-text">You can also place image on the bottom of the card.</p>
+        <form action={{ nav.name }}>
+          <button>Let me go here!</button>
+        </form>
+      </div>
+    </div>
+  {% endfor %}
+</div>

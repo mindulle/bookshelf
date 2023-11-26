@@ -15,7 +15,7 @@
       border-bottom-width: 3px;
     }
 
-    @for $num from 1 through 5 {
+    @for $num from 1 through 6 {
       &[id$='tab#{$num}']:checked~div[id$='content#{$num}'] {
         display: block;
       }

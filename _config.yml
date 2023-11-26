@@ -5,71 +5,13 @@ url: https://mindulle.github.io
 
 collections_dir: collection
 collections:
-  books:
+  design-pattern:
     output: true
-  items:
+  laws:
     output: true
-  missions:
+  uml:
     output: true
-  monsters:
-    output: true
-  production:
-    output: true
-  quests:
-    output: true
-  talent:
-    output: true
-  skills:
-    output: true
-  weapons:
-    output: true
-
-defaults:
-  - scope:
-      path: "_books"
-      type: "books"
-    values:
-      layout: "foam"
-  - scope:
-      path: "_items"
-      type: "items"
-    values:
-      layout: "foam"
-  - scope:
-      path: "_missions"
-      type: "missions"
-    values:
-      layout: "foam"
-  - scope:
-      path: "_monsters"
-      type: "monsters"
-    values:
-      layout: "foam"
-  - scope:
-      path: "_production"
-      type: "production"
-    values:
-      layout: "foam"
-  - scope:
-      path: "_quests"
-      type: "quests"
-    values:
-      layout: "foam"
-  - scope:
-      path: "_talent"
-      type: "talent"
-    values:
-      layout: "foam"
-  - scope:
-      path: "_skills"
-      type: "skills"
-    values:
-      layout: "foam"
-  - scope:
-      path: "_weapons"
-      type: "weapons"
-    values:
-      layout: "foam"
+    
 
 highlighter: rouge
 gist:

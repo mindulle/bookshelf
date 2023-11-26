@@ -1,18 +1,18 @@
-- name: Cactus
+- name: cactus
   emoji: 🌵
   state: success
-- name: Pizza
+- name: pizza
   emoji: 🍕
   state: warning
-- name: Star
+- name: star
   emoji: ⭐
   state: warning
-- name: Cupid
+- name: cupid
   emoji: 💘
   state: danger
-- name: Cheese
+- name: cheese
   emoji: 🧀
   state: warning
-- name: Frog
+- name: frog
   emoji: 🐸
   state: success

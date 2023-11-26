@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div style="max-width: 1440px;" class="row site">
+      <div class="col-fill col">
+        <div class="paper">
+          {{ content }}
+        </div>
+      </div>
+      <!-- include fix-search-btn.html -->
+      {% include search/fix-search-btn.html %}
+
+    </div>
+    <script src="{{ '/assets/js/auto-dark-mode.js' | relative_url }}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/md-load.js' | relative_url }}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/md-sync.js' | relative_url }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script type="text/javascript" src="{{ '/assets/js/filter-by-mood.js' | relative_url }}"></script>
+    <script type="module" src="{{ '/assets/js/d3/forced-directed-tree.js' | relative_url }}"></script>
+  </body>
+</html>
+

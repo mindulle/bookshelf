@@ -1,0 +1,29 @@
+---
+layout: base
+---
+<style>
+  .hide {
+    display: none !important;
+  }
+</style>
+<div class="row">
+  <!-- Area for tabs composed of accordion(collapsibles) -->
+  <div class="sm-12 md-8 col">
+    <div class="row flex-spaces tabs paper">  
+      {% include collapsibles-within-tab.html %}
+      <!-- contents for each tabs, include collection/talent/collapsibles.html -->
+    </div>
+  </div>
+  <!-- Area for filter -->
+  <div class="sm-12 md-4 col">
+    <!-- include mood filter -->
+    <div class="container-xs paper">
+      <div class="row flex-center">
+        <h2>Filters</h2>
+      </div>
+      <div class="row flex-center form-group">
+        {% include mood-filter.html %}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+{% for field in site.data.fields %}
+  <input id="tab{{ forloop.index }}" type="radio" name="tabs"}}">
+  <label for="tab{{ forloop.index }}">{{ field.name }}</label>
+{% endfor %}
+{% for field in site.data.fields %}
+<div class="content" id="content{{ forloop.index }}">
+  <div class="collapsible">
+    {% assign laws = site.laws | where: "tab", field.name %}
+    {% for law in laws %}
+      <input 
+      type="checkbox"
+      class="{{ law.mood }}" 
+      id="collapsible{{ forloop.parentloop.index }}-{{ forloop.index }}" 
+      name="collapsible"
+      >
+      <label 
+      for="collapsible{{ forloop.parentloop.index }}-{{ forloop.index }}" 
+      class="{{ law.mood }}"
+      >
+        {{ law.title }}
+        {% assign curMood = site.data.moods | where: "name", law.mood %}
+        {{ curMood[0].emoji }}
+      </label>
+      <div class="{{ law.mood }} collapsible-body">
+        <span>
+          {{ law.content }}
+        </span>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}

@@ -5,172 +5,322 @@
   
     
     
+  
+    
+    
       {
-        "title": "Collection - Books",
-        "excerpt": "Welcome\n\n",
-        "content": "Welcome\n\nHello world, this is my first Jekyll blog post.\n\nI hope you like it!\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
-        "url": "/bookshelf/books/books/"
+        "title": "Amdahls Law",
+        "excerpt": "암달의 법칙\n\n",
+        "content": "암달의 법칙\n\n위키피디아의 암달의 법칙\n\n\n  암달의 법칙은 시스템에 리소스를 추가함으로써 얻을 수 있는 컴퓨터 작업 성능 향상의 최대 폭을 나타내주는 공식이다. 일반적으로 병렬 컴퓨팅에서 이를 이용하여, 프로세서 개수의 증가가 프로그램 자체의 구조적인 병렬화 제한에 맞서 실제적으로 가져다주는 이득을 예측할 수 있다.\n\n\n예시를 살펴보자. 어떠한 프로그램이 단일 프로세서로 구동되어야 하는 부분 A와 병렬화될 수 있는 부분 B로 이루어져있다고 할 때, 우리는 프로세서의 추가적인 투입이 제한된 이득만을 가져다줌을 알 수 있다. B 부분의 성능을 크게 향상시킬 수 있지만, A 부분의 속도는 그대로 남을 것이기 때문이다.\n\n아래의 그래프는 성능 향상 가능성의 예시를 보여준다.\n\n\n\n(이미지 출처: Daniels220 @영어 Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)\n\n\n\n보다시피 50%나 병렬화 가능한 프로그램임에도 10개 프로세서 이후에는 거의 이득이 없는 반면, 95% 병렬화 가능한 프로그램은 수천 개가 추가될 때까지도 유의미한 성능 향상을 보여주고 있다.\n\n무어의 법칙과 개별 프로세서의 성능 증가 속도가 완화되면서, 병렬화는 최적화의 핵심이 되었다. 그래픽스 프로그래밍이 이에 대한 가장 알맞은 예시이다. 셰이더 기반의 최신 컴퓨팅에서는 개별 픽셀 혹은 프래그먼트를 병렬로 렌더링할 수 있는데, 이것이 최신 그래픽 카드들이 대개 수천 개의 코어(GPU 또는 셰이더 유닛)로 구성된 이유이다.\n\n\n\n참고 :\n\n\n  암달의 법칙\n\n\n\n\n",
+        "url": "/bookshelf/laws/computing/Amdahls-Law/"
+      },
+    
+      {
+        "title": "Galls Law",
+        "excerpt": "갈의 법칙\n\n",
+        "content": "갈의 법칙\n\nGall’s Law on Wikipedia\n\n\n  잘 작동하는 복잡한 체계는 항상 잘 작동하던 간단한 체계에서 발전한다. 처음부터 복잡하게 설계된 체계는 절대로 작동하지 않으며 잘 돌아가도록 만들 수도 없다. 언제나 작동하는 간단한 시스템에서 출발해야 한다.\n\n  (존 갈)\n\n\n갈의 법칙은 고도로 복잡한 시스템을 설계 하려는 시도는 대개 실패함 암시한다. 고도로 복잡한 체계는 하루아침에 이루어진 것이 아니라, 더 간단한 체계로부터 진화한 것이다.\n\n고전적인 예시는 월드 와이드 웹이다. 현재의 웹의 상태는 굉장히 복잡하다. 그러나 처음에는 그저 학술 기관 간의 간편한 컨텐트 공유 시스템으로서 시작했을 뿐이다. 이러한 목적을 성공적으로 달성하였기 때문에 시간이 지남에 따라 복잡한 시스템으로 진화할 수 있었다.\n\n\n\n참고 :\n\n\n  KISS 원칙\n\n\n\n\n",
+        "url": "/bookshelf/laws/computing/Galls-Law/"
+      },
+    
+      {
+        "title": "Metcalfes Law",
+        "excerpt": "메칼프의 법칙\n\n",
+        "content": "메칼프의 법칙\n\n위키피디아의 메칼프의 법칙\n\n\n  네트워크 이론에서, 망의 가치는 대략 사용자 수의 제곱에 비례한다.\n\n\n이 법칙은 시스템 안의 가능한 연결쌍의 수를 기반으로 하고 있으며 리드의 법칙과 많은 관련이 있다. 그러나 오들리즈코를 비롯한 다른 이들은, 리드의 법칙과 메칼프의 법칙 둘 모두 네트워크 효과에 있어 인간의 인지를 고려하지 않음으로써 가치를 너무 높게 잡았다고 반박하였다. 던바의-숫자 참고.\n\n참고 :\n\n\n  리드의 법칙\n  던바의 숫자\n\n\n\n\n",
+        "url": "/bookshelf/laws/computing/Metcalfes-Law/"
+      },
+    
+      {
+        "title": "Moores Law",
+        "excerpt": "무어의 법칙\n\n",
+        "content": "무어의 법칙\n\n위키피디아의 무어의 법칙\n\n\n  집적 회로의 트랜지스터 수는 대략 2년마다 2배가 된다.\n\n\n반도체와 기판 기술의 가파른 성장 속도를 설명하기 위한 무어의 예측은 1970년대부터 2000년대 후반까지 굉장히 정확한 것으로 드러났다. 최근에는 부품 소형화의 물리적 한계로 인하여 약간 둔화되긴 하였지만 말이다. 하지만 병렬화와 반도체 기술의 혁신적 변화에 대한 가능성, 그리고 양자 컴퓨팅은 무어의 법칙이 향후 몇 십 년간에도 들어맞을 수 있음을 의미할 수도 있다.\n\n\n\n",
+        "url": "/bookshelf/laws/computing/Moores-Law/"
+      },
+    
+      {
+        "title": "Reeds Law",
+        "excerpt": "리드의 법칙\n\n",
+        "content": "리드의 법칙\n\nReed’s Law on Wikipedia\n\n\n  거대한 네트워크, 특히 소셜 네트워크의 효용은 망의 크기에 대해 지수적으로 증가한다.\n\n\n이 법칙은 그래프 이론에 기반하는데, 이에 따르면 망의 효용은 참여자 군의 부분집합의 수에 비례한다. 이것은 망의 참여자의 수 혹은 가능한 연결쌍의 수보다 매우 빠른 속도로 증가하는 것이다. 그러나 오들리즈코를 비롯한 다른 이들은 이 법칙이 네트워크 효과에 있어 인간의 인지를 고려하지 않음으로써 가치를 너무 높게 잡았다고 반박하였다. 던바의-숫자 참고.\n\n\n\n참고 :\n\n  메칼프의 법칙\n  던바의 숫자\n\n\n\n\n",
+        "url": "/bookshelf/laws/computing/Reeds-Law/"
+      },
+    
+      {
+        "title": "The Fallacies Of Distributed Computing",
+        "excerpt": "분산 컴퓨팅의 오류\n\n",
+        "content": "분산 컴퓨팅의 오류\n\nThe Fallacies of Distributed Computing on Wikipedia\n\n네트워크 컴퓨팅의 오류라고도 알려진 이것은, 소프트웨어 개발에 있어 실패로 이어질 수 있는 분산 컴퓨팅 관련 가설의 목록이다.\n\n\n\n이는 다음과 같다 :\n\n\n  \n    네트워크는 신뢰할 수 있다.\n  \n  \n    지연은 0이다.\n  \n  \n    대역폭은 무한하다.\n  \n  \n    네트워크는 안전하다.\n  \n  \n    위상은 변화하지 않는다.\n  \n  \n    오직 하나의 관리자만이 존재한다.\n  \n  \n    전송 비용은 없다.\n  \n  \n    네트워크는 모두 균일하다.\n\n    \n  \n\n\n첫 네 가지는 빌 조이와 톰 리온에 의해 1991년경 제기되었으며 제임스 고슬링에 의해 처음으로 ‘분산 컴퓨팅의 오류’로서 분류되었다. L. 피터 도이치가  5 ~ 7번째 오류를 추가하였고 90년대 말 고슬링은 8번째 오류를 추가하였다.\n\n그들은 당시 썬 마이크로시스템즈내에서 일어나던 일로부터 영향을 받았다.\n\n회복성이 높은 코드를 설계할 때, 이 오류들에 의해 잘못된 로직을 작성하여 실제 세계와 분산 컴퓨팅의 복잡성을 다루는 데에 실패할 수 있으므로 유의해야한다.\n\n\n\n참고 :\n\n\n  Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi\n on Medium\n  Deutsch’s Fallacies, 10 Years After\n\n\n\n\n",
+        "url": "/bookshelf/laws/computing/The-Fallacies-of-Distributed-Computing/"
+      },
+    
+      {
+        "title": "The Law Of Conservation Of Complexity Teslers Law",
+        "excerpt": "복잡성 보존의 법칙 (테슬러의 법칙)\n\n",
+        "content": "복잡성 보존의 법칙 (테슬러의 법칙)\n\nThe Law of Conservation of Complexity on Wikipedia\n\n이 법칙에 따르면 시스템에는 더 이상 줄일 수 없는 특정한 정도의 복잡성이 존재한다.\n\n시스템에 있어 어떤 종류의 복잡성은 ‘의도되지 않은 것’이다. 그것은 빈약한 구조, 실수, 혹은 문제에 대한 그릇된 모델링의 대가이다. 이러한 의도되지 않은 복잡성은 줄이거나 없앨 수 있다. 반면에, 풀어야 할 문제에 대하여 ‘내재적’으로 자리하는 복잡성이 있다. 이러한 복잡성은 옮겨질 수는 있으나 없앨 수는 없다.\n\n이 법칙이 시사하는 흥미로는 점은, 설령 전체 시스템을 단순화하더라도 내재적인 복잡성은 줄어드는 것이 아니라 사용자에게 전이되어서, 이용을 더욱 복잡하게 만든다.\n\n\n\n",
+        "url": "/bookshelf/laws/computing/The-Law-of-Conservation-of-Complexity-Teslers-Law/"
+      },
+    
+      {
+        "title": "The Law Of Leaky Abstractions",
+        "excerpt": "허술한 추상화의 법칙\n\n",
+        "content": "허술한 추상화의 법칙\n\nThe Law of Leaky Abstractions on Joel on Software\n\n\n  모든 사소하지 않은 추상화는, 어느 정도, 허술하다.\n\n  —조엘 스폴스키\n\n\n이 법칙에 따르면 컴퓨팅에서 복잡한 시스템과 작업하기 위해 일반적으로 사용되는 추상화에서는 때에 따라 하단 요소의 ‘누수’가 일어날 수 있고, 이는 추상화가 예상치 못한 방향으로 전개되게 한다.\n\n파일을 불러와 내용을 읽는 상황을 살펴보자. 파일 시스템 API는 로우 레벨 커널 시스템의 추상화 인데, 이 시스템 또한 자기 플래터(혹은 플래시 메모리나 SSD)의 데이터를 물리적으로 변경하는 것의 추상화이다. 대부분의 경우 파일을 이진 데이터의 스트림으로서 추상화하는 것은 문제가 없을 것이다. 그러나 자기 디스크에서는 데이터를 순서대로 읽는 것이 임의 접근보다 비교할 수 없을 만큼 빠른 반면에(페이지 폴트 비용 때문에), SSD에서는 전혀 상관이 없다. 내부 구현을 상세히 이해하여야 이런 경우에 대처할 수 있는데(가령, 데이터베이스 인덱스 파일은 임의 접근의 비용을 줄이도록 구조가 짜여져 있다), 이렇듯 추상화는 개발자가 모르면 곤란하도록 내부 구현 상세를 ‘누출’한다.\n\n위의 예시는 더 많은 추상화가 도입되면 더욱 복잡해질 수 있다. 리눅스 운영체제는 네트워크를 경유하여 파일에 접근할 수 있도록 하면서도 로컬에서는 ‘일반’ 파일로 취급한다. 이런 추상화는 네트워크 오류가 발생하면 ‘허술해질’ 것이다. 만약 개발자가 이런 파일들을 네트워크 지연이나 오류에 대한 고려 없이 ‘일반’ 파일로 취급한다면, 버그가 생길 것이다.\n\n이 법칙을 설명하는 글에 따르면 하부 구동 원리를 모른 채로 추상화에 과도하게 의존할 경우, 도리어 문제 해결을 복잡하게 만들 수 있다고 하고 있다.\n\n\n\n참고 :\n\n\n  하이럼의 법칙\n\n\n실제 사례 :\n\n\n  포토샵의 느린 초기 로딩 - 과거에 마주한 문제이다. 포토샵은 종종 켜는 데에 몇 분씩이나 걸리기도 하는데, 이 문제는 구동 시작시에 현재 기본으로 설정된 프린터의 정보를 읽어오는 것에서 발생하였다. 만약 그 프린터가 네트워크 프린터라면 극도로 오랜 시간이 걸리게 되는 것이다. 시스템에 네트워크 프린터의 추상화 가 로컬 프린터와 유사하게 제공된 점은 연결 상태가 좋지 못한 상황의 사용자에게 문제를 일으켰다.\n\n\n\n\n",
+        "url": "/bookshelf/laws/computing/The-Law-of-Leaky-Abstractions/"
+      },
+    
+      {
+        "title": "The Spotify Model",
+        "excerpt": "스포티파이 모델\n\n",
+        "content": "스포티파이 모델\n\nThe Spotify Model on Spotify Labs\n\n스포티파이 모델은 ‘스포티파이’에 의해 유명해진 팀과 조직 구조에 대한 접근법이다. 이 모델에서 팀은 기술보단 기능을 중심으로 구성된다.\n\n스포티파이 모델은 부족, 길드, 지부와 같은 그들 조직 구조의 요소 또한 유명하게 만들었다.\n\n\n\n\n\n(이미지 출처: https://medium.com/@media_75624/exploring-key-elements-of-spotifys-agile-scaling-model-471d2a23d7ea)\n\n\n\n",
+        "url": "/bookshelf/laws/computing/The-Spotify-Model/"
+      },
+    
+      {
+        "title": "The Unix Philosophy",
+        "excerpt": "유닉스 철학\n\n",
+        "content": "유닉스 철학\n\n위키피디아의 유닉스 철학\n\n유닉스 철학은 소프트웨어의 구성 요소는 작아야 하며, 하나의 특정한 작업을 잘하도록 해야 한다는 것이다. 작고 단순하며 잘 정의된 단위들을 조합함으로써, 거대하고 복잡하며 다목적인 프로그램을 이용하는 것보다 쉽게 시스템을 설계할 수 있다.\n\n서비스가 작고, 하나의 특정한 작업을 맡으며, 복잡한 행동은 단순한 블록의 조합으로 구성할 수 있는 ‘마이크로서비스 아키텍쳐’ 같은 근래의 관행 또한 이 법칙의 적용으로 생각할 수 있다.\n\n\n\n",
+        "url": "/bookshelf/laws/computing/The-Unix-Philosophy/"
+      },
+    
+      {
+        "title": "Brooks Law",
+        "excerpt": "브룩스의 법칙\n\n",
+        "content": "브룩스의 법칙\n\n위키피디아의 브룩스의 법칙\n\n\n  지체되는 소프트웨어 개발 프로젝트에 인력을 더하는 것은 개발을 늦출 뿐이다.\n\n\n이 법칙은 이미 늦어지고 있는 소프트웨어 개발을 빨리하기 위해 사람을 더 투입하는 것은 도리어 완성을 늦출 뿐이라고 말한다. 브룩스는 이것은 비록 극도로 단순화한 이야기임을 분명히 했으나, 다만 일반적으로 보았을 때 자원 투입 시간과 의사소통 비용으로 인해 단기적으로 속도가 줄어들 수 있다고 하였다. 또한 많은 작업들은 분할할 수 없기 때문에, 즉 인력이 늘어난다고 하여 쉽게 분배할 수 없기 때문에, 기대할 수 있는 속도 증가 역시 낮다.\n\n흔히 말하는 “임산부 9명이 모여도 아기를 한 달만에 낳을 수는 없다”는 구절은 브룩스의 법칙 중에서도, 특정 작업은 나누거나 병렬화할 수 없음을 비유적으로 뜻한다.\n\n이것은 그의 저서 ‘맨먼스 미신‘의 주요한 주제이다.\n\n\n\n참고 :\n\n\n  Death March\n  추천 도서 : 맨먼스 미신\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/Brooks-Law/"
+      },
+    
+      {
+        "title": "Conways Law",
+        "excerpt": "콘웨이의 법칙\n\n",
+        "content": "콘웨이의 법칙\n\nConway’s Law on Wikipedia\n\n이 법칙에 따르면 시스템의 구조는 설계하는 조직의 구조를 반영한다. 이것은 조직 개선을 시도할 때 종종 인용되고는 하는데, 가령 조직이 여러 개의 작고 끊어진 단위로 구성되어 있다면 거기에서 나온 소프트웨어 또한 그 모습을 닮는다고 한다. 또한 만약 조직이 기능과 서비스를 중심으로 수직적으로 짜여 있다면, 이 역시 소프트웨어가 이러한 모습을 반영할 것이란 것이다.\n\n참고 :\n\n\n  스포티파이 모델\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/Conways-Law/"
+      },
+    
+      {
+        "title": "Cunninghams Law",
+        "excerpt": "커닝햄의 법칙\n\n",
+        "content": "커닝햄의 법칙\n\nCunningham’s Law on Wikipedia\n\n\n  인터넷에서 올바른 답을 얻기 위한 가장 좋은 방법은 질문을 하는 것이 아니라, 잘못된 답변을 올리는 것이다.\n\n\n스티븐 맥기디에 따르면, 와드 커닝햄은 1980년대 초에 그에게 이런 조언을 해주었다 : ‘인터넷에서 올바른 답을 얻기 위한 가장 좋은 방법은 질문을 하는 것이 아니라, 잘못된 답변을 올리는 것이다’. 맥기디는 이것을 커닝햄의 법칙이라 이름 붙였지만, 정작 본인은 이를 잘못된 인용이라며 부정하였다. 원래는 유즈넷에 관한 이야기였지만 이 법칙은 다른 온라인 커뮤니티들이 어떻게 작용하는지를 설명하는 데에도 쓰이게 되었다(예시 : 위키피디아, 레딧, 트위터, 페이스북).\n\n\n\n참고 :\n\n\n  XKCD 386: “Duty Calls”\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/Cunninghams-Law/"
+      },
+    
+      {
+        "title": "Hutbers Law",
+        "excerpt": "허트버의 법칙\n\n",
+        "content": "허트버의 법칙\n\nHutber’s Law on Wikipedia\n\n\n  개선은 악화를 의미한다.\n\n  (패트릭 허트버)\n\n\n이 법칙의 주장에 따르면 시스템의 개선은 다른 부분의 악화로 이어지거나 다른 악화를 숨겨, 현 상태로부터 전체적인 질적 저하를 불러오게 된다.\n\n예를 들어 특정 엔드 포인트의 응답 시간 감소로 인해 요청 흐름에 있어서 스루풋과 용량 이슈가 늘어날 수 있고, 이는 전혀 다른 부분에 영향을 끼칠 수 있다.\n\n\n\n",
+        "url": "/bookshelf/laws/dev/Hutbers-Law/"
+      },
+    
+      {
+        "title": "Hyrums Law The Law Of Implicit Interfaces",
+        "excerpt": "하이럼의 법칙 (암시적 인터페이스의 법칙)\n\n",
+        "content": "하이럼의 법칙 (암시적 인터페이스의 법칙)\n\nHyrum’s Law Online\n\n\n  API에 충분한 수의 유저가 있다면,\n\n  명세에서 지정된 것은 아무런 상관이 없다:\n\n  시스템에서 관측될 수 있는 모든 행동 양식은\n\n  다른 이들에게 달려있을 것이다.\n\n  — 하이럼 라이트\n\n\n하이럼의 법칙에 따르면 API에 충분히 많은 수의 소비자가 있을 때, API의 모든 행동 양식은 궁극적으로 명세에 있는 정의가 아닌 아닌 다른 누군가에게 달려있게 된다. 간단한 예시를 들자면 가령 API의 응답 시간과도 같은 비함수적 요소들이다. 좀 더 구체적인 예시는 에러 메세지에 정규 표현식을 이용하여 API의 에러의 타입 을 알아내는 소비자들을 들 수 있다. API의 공개 명세에서는 메세지의 내용에 관하여서 아무 것도 알려주지 않으며 대신 에러 코드를 사용해야 한다고 하고 있더라도, 어떤 유저들은 메세지를 사용하거나 메세지의 내용을 변경하여 API를 사실상 붕괴시킬 수 있다.\n\n\n\n참고 :\n\n\n  허술한 추상화의 법칙\n  XKCD 1172\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/Hyrums-Law-The-Law-of-Implicit-Interfaces/"
+      },
+    
+      {
+        "title": "Kernighans Law",
+        "excerpt": "커니핸의 법칙\n\n",
+        "content": "커니핸의 법칙\n\n\n  애초에 디버깅이란 코드 작성보다 두 배는 더 어렵다. 그러므로 만약 코드를 가능한한 영리하게 작성한다면, 당신은 디버그를 하기에는 역부족이다.\n\n  (브라이언 커니핸)\n\n\n커니핸의 법칙은 브라이언 커니핸의 이름을 따라 지었으며, 그와 플라우거의 저서 The Elements of Programming Style에서 유래하였다 :\n\n\n  디버깅이 프로그램 작성보다 두 배는 어렵다는 것을 모두들 안다. 따라서 만약 당신이 최대한 영리하게 코드를 쓴다면 디버그는 어떻게 할 것인가?\n\n\n과장되긴 하지만, 커니핸의 법칙의 주장은 복잡한 코드에서 일어나는 문제들은 고치기 매우 어렵거나 심지어 불가능하므로 단순한 코드가 낫다는 것이다.\n\n\n\n참고 :\n\n\n  KISS 원칙\n  유닉스 철학\n  오컴의 면도날\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/Kernighans-Law/"
+      },
+    
+      {
+        "title": "Premature Optimization Effect",
+        "excerpt": "성급한 최적화의 법칙\n\n",
+        "content": "성급한 최적화의 법칙\n\nPremature Optimization on WikiWikiWeb\n\n\n  성급한 최적화는 모든 악의 근원이다.\n\n  (도널드 커누스)\n\n\n도널드 커누스의 논문 Goto문을 이용한 구조적 프로그래밍에 따르면, “프로그래머들은 프로그램에서 중요하지 않은 부분을 최적화하는 것을 생각하고 또 걱정함으로써 어마어마한 시간을 낭비하는데, 이런 시도는 디버깅이나 유지보수를 고려하면 오히려 효율성에 막대하게 부정적인 영향을 끼친다. 우리는 가령 97% 정도의 경우에, 작은 부분의 효율성에 관하여 생각하지 않아야 한다 : 성급한 최적화는 모든 악의 근원이다. 그러나 나머지 결정적인 3%의 경우에까지 기회를 저버리면 안 된다.”\n\n성급한 최적화 란 (좁은 의미로) 그것이 꼭 필요한지 알기 전에 행해지는 최적화라고 할 수 있다.\n\n\n\n",
+        "url": "/bookshelf/laws/dev/Premature-Optimization-Effect/"
+      },
+    
+      {
+        "title": "Solid",
+        "excerpt": "솔리드\n\n",
+        "content": "솔리드\n\n이는 다음에 대한 약자이다:\n\n\n  S: The Single Responsibility Principle (단일 책임 원칙)\n  O: The Open/Closed Principle (개방-폐쇄 원칙)\n  L: The Liskov Substitution Principle (리스코프 치환 원칙)\n  I: The Interface Segregation Principle (인터페이스 분리 원칙)\n  D: The Dependency Inversion Principle (의존 관계 역전 원칙)\n\n\n이것은 객체지향 프로그래밍의 핵심 원칙이다. 이러한 설계 원칙들은 개발자들이 유지보수 가능한 시스템을 짓는 것을 도울 수 있다.\n\n\n\n",
+        "url": "/bookshelf/laws/dev/SOLID/"
+      },
+    
+      {
+        "title": "The Dry Principle",
+        "excerpt": "DRY 원칙\n\n",
+        "content": "DRY 원칙\n\nThe DRY Principle on Wikipedia\n\n\n  모든 지식은 시스템 내에서 반드시 단일하고, 모호하지 않으며, 권위적인 표현으로 나타나야 한다.\n\n\nDRY는 Don’t Repeat Yourself반복하지 마라 의 약자이다. 이 원칙은 개발자들에게 있어 코드의 반복을 줄이고 정보를 한 곳에 모을 수 있도록 돕기 위해 고안되었으며, 1999년 앤드류 헌트와 데이브 토마스의 저서 실용주의 프로그래머에 나와 있다.\n\n\n  DRY의 반대는 WET (Write Everything Twice모든 것을 두 번 써라, 혹은 We Enjoy Typing저희는 타자치는 게 좋아요)이라 할 수 있겠다.\n\n\n만일 같은 정보가 둘 혹은 그 이상 곳에 흩어져 있다면, DRY 원칙을 적용하여 하나로 합친 후 원하는/필요한 곳에서 재사용할 수 있다.\n\n\n\n참고 :\n\n\n  실용주의 프로그래머\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/The-DRY-Principle/"
+      },
+    
+      {
+        "title": "The Dependency Inversion Principle",
+        "excerpt": "의존 관계 역전 원칙\n\n",
+        "content": "의존 관계 역전 원칙\n\n위키피디아의 의존 관계 역전 원칙\n\n\n  고수준 모듈은 저수준 구현에 의존해서는 안 된다.\n\n\n‘솔리드’ 원칙의 다섯 번째이다. 고수준에서 지휘하는 구성 요소는 의존 관계를 알 필요가 없다는 원칙이다.\n\n예시로서, 웹사이트의 메타데이터를 읽는 프로그램이 있다고 하자. 우리는 중심 구성 요소가 웹페이지 내용을 다운로드하는 구성 요소와 메타데이터를 읽을 수 있는 구성 요소를 알아야만 한다고 생각할 수 있다. 만약 의존 관계 역전 원칙을 고려한다면, 중심 구성 요소는 오로지 바이트 데이터를 가져올 수 있는 추상 구성 요소와 바이트 스트림에서 메타데이터를 읽을 수 있는 추상 구성 요소에만 의존하면 된다. TCP/IP, HTTP, HTML 등에 대해서는 알 필요가 없다.\n\n이 원칙은 마치 예상되는 의존 관계를 ‘역전’하는 것처럼 보일 수 있기 때문에 복잡하다(그래서 이러한 이름이 붙었다). 실제로는, 개별 지휘체가 올바른 구현의 추상 자료형이 사용되었는지도 확실시 해야 함을 뜻한다(위의 예시에서 무언가 가 여전히 메타데이터를 읽는 추상 구성 요소에 HTTP 파일 다운로더와 HTML 메타 태그 리더기를 제공해야 한다). 이것은 제어 반전이나 의존성 주입과 같은 패턴으로 이어진다.\n\n\n\n참고 :\n\n\n  객체지향 프로그래밍\n  \n    솔리드\n  \n  제어 반전\n  의존성 주입\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/The-Dependency-Inversion-Principle/"
+      },
+    
+      {
+        "title": "The Interface Segregation Principle",
+        "excerpt": "인터페이스 분리 원칙\n\n",
+        "content": "인터페이스 분리 원칙\n\n위키피디아의 인터페이스 분리 원칙\n\n\n  어떠한 클라이언트도 자신이 사용하지 않는 메소드에 의존하도록 강요당하면 안 된다.\n\n\n‘솔리드’ 원칙의 네 번째이다. 이 원칙에 따르면 구성 요소의 소비자는 구성 요소가 가진 함수들 중에서 실제로 사용하지 않는 것들에 의존하면 안 된다.\n\n예를 들면, 파일을 나타내는 구조로부터 XML 문서를 읽어들이는 메소드가 있다고 하자. 그 메소드는 오직 파일에서의 바이트 읽기, 전진, 그리고 후진 기능만이 필요하다. 만약 이 메소드가 파일 구조의 연관 없는 기능(파일 보안을 위한 권한 업데이트와도 같은)이 변하였다고 해서 업데이트가 필요하다면, 이 원칙은 무효가 된 것이다. 파일이 ‘탐색 가능 스트림’ 인터페이스를 구현하고, XML 리더기가 사용하도록 하는 편이 나을 것이다.\n\n이 원칙은 특히 객체지향 프로그래밍에서 적용되어, 인터페이스, 계층 구조, 그리고 추상 자료형을 통해 구성 요소 간의 결합도의 최소화를 이루려고 한다. 덕 타이핑은 명시적 인터페이스를 제거함으로써 이 원칙을 강제한다.\n\n\n\n참고 :\n\n\n  객체지향 프로그래밍\n  \n    솔리드\n  \n  덕 타이핑\n  디커플링\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/The-Interface-Segregation-Principle/"
+      },
+    
+      {
+        "title": "The Kiss Principle",
+        "excerpt": "KISS 원칙\n\n",
+        "content": "KISS 원칙\n\n위키피디아의 KISS 원칙\n\n\n  Keep it simple, stupid\n\n  간단하게 놔둬, 바보야\n\n\n키스 원칙에 따르면 대부분의 시스템은 복잡하기보다는 단순할 때 가장 잘 작동한다고 한다. 즉, 간단함은 설계의 핵심 목표여야 하며 불필요한 복잡성은 피해야하는 것이다. 1960년대 미 해군에서 유래한 이 어구는 항공 기술자 켈리 존슨과 관련 있다.\n\n이 원칙을 설명하기 좋은 예시로 존슨의 이야기가 있다. 존슨은 제트기 기술자들에게 몇 가지의 장비를 나누어주었는데, 교전 중에도 평균적인 수준의 정비공들이 오직 이 장비만을 사용해서 수리할 수 있도록 하는 제약을 지키면서 항공기를 설계했다. 즉, ‘바보’라는 것은 엔지니어들의 수준을 말하는 것이 아닌, 어떻게 기체를 분해할 것인가와 수리를 위해 가용한 도구들 간의 관계를 뜻하는 것이다.\n\n\n\n참고 :\n\n\n  갈의 법칙\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/The-KISS-principle/"
+      },
+    
+      {
+        "title": "The Law Of Triviality",
+        "excerpt": "사소함의 법칙\n\n",
+        "content": "사소함의 법칙\n\nThe Law of Triviality on Wikipedia\n\n이 법칙은 정작 심각한 혹은 중요한 것들보다 사소한 이슈들 혹은 외양에 훨씬 더 많은 시간을 쏟게 됨을 시사한다.\n\n가상의 예시로서, 위원회가 원자력 발전소에 건설 계획을 허가하는 과정에서 훨씬 중요한 발전소 자체의 설계는 놔두고 자전거 보관소 얘기나 하는 데에 시간을 쏟는 것을 들 수 있다. 거대하고 복잡한 주제의 논의에서 그 분야의 전문 지식이나 사전 준비 없이 뭔가 유용한 이야기를 할 수는 없을 것이다. 그러나 사람들은 자신이 기여하는 것처럼 보여지고 싶어하고, 따라서 쉽게 해결될 수 있으며 그다지 중요한 것은 아닌 작은 디테일에 너무 많은 시간을 쏟는 경향이 생겨난다.\n\n이 가상의 일화는 사소한 디테일에 시간 버리는 것을 ‘자전거보관소한다’고 표현하도록 만들었다.\n\n\n\n",
+        "url": "/bookshelf/laws/dev/The-Law-of-Triviality/"
+      },
+    
+      {
+        "title": "The Liskov Substitution Principle",
+        "excerpt": "리스코프 치환 원칙\n\n",
+        "content": "리스코프 치환 원칙\n\n리스코프 치환 원칙 \n\n\n  시스템을 파괴하지 않으면서도 자료형을 하위 자료형으로 대체할 수 있어야 한다.\n\n\n‘솔리드’ 원칙의 세 번째이다. 이 원칙은 만일 어떠한 구성 요소가 자료형에 의존한다면, 시스템 실패나 하위 자료형이 무엇인지에 대한 정보 없이도 하위형을 대신 사용할 수 있어야 한다고 말한다.\n\n가령, 파일을 나타내는 구조로부터 XML 문서를 읽어들이는 메소드가 있다고 하자. 만약 메소드가 ‘파일’ 기반형을 사용하고 있다면, ‘파일’에서 파생된 모든 것은 해당 함수에서 쓰일 수 있다. ‘파일’이 역방향 탐색을 지원하고 XML 파서가 그 기능을 이용한다고 할 때 만약 하위 자료형인 ‘네트워크 파일’에 대한 역방향 탐색 시도 시 실패한다면, ‘네트워크 파일’은 규율을 위반하고 있는 것이다.\n\n이 원칙은 특히 객체지향 프로그래밍과 관련이 있는데, 자료형의 계층 관계를 세심히 모델링해야  시스템 사용자들의 혼란을 막을 수 있기 때문이다.\n\n\n\n참고 :\n\n\n  객체지향 프로그래밍\n  솔리드\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/The-Liskov-Substitution-Principle/"
+      },
+    
+      {
+        "title": "The Openclosed Principle",
+        "excerpt": "개방-폐쇄 원칙\n\n",
+        "content": "개방-폐쇄 원칙\n\n위키피디아의 개방-폐쇄 원칙\n\n\n  개체는 확장에 대해서는 열려 있어야 하고, 수정에 대해서는 닫혀 있어야 한다.\n\n\n‘솔리드’ 원칙의 두 번째이다. 이 원칙에 따르면 개체(클래스, 모듈, 함수 등)는 행동을 확장 할 수 있어야 하지만, 기존의 행동은 고칠 수 없어야 한다.\n\n가상의 예시로서 마크다운 문서를 HTML로 변환할 수 있는 모듈을 상상해보자. 모듈이 내부적인 변경 없이도 새로이 제안된 마크다운 기능을 다룰 수 있도록 확장 가능하다면, 확장에 대해 열려 있는 것이다. 만약 모듈이 소비자에 의해서 기존의 마크다운 기능 처리를 변경할 수 있도록 수정될 수 없다면, 수정에 대해 닫혀 있는 것이다.\n\n이 원칙은 특히 객체지향 프로그래밍과 관련이 있는데, 우리는 객체를 쉽게 확장하고 싶은 반면 예상치 못한 방향으로 수정되는 것은 피하고 싶기 때문이다.\n\n\n\n참고 :\n\n\n  객체지향 프로그래밍\n  솔리드\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/The-OpenClosed-Principle/"
+      },
+    
+      {
+        "title": "The Robustness Principle Postels Law",
+        "excerpt": "견고함의 원칙 (포스텔의 법칙)\n\n",
+        "content": "견고함의 원칙 (포스텔의 법칙)\n\n위키피디아의 견고함의 원칙\n\n\n  당신이 하는 일은 엄하게, 남의 것을 받아들일 때는 너그럽게.\n\n\n종종 서버 어플리케이션 개발에 있어, 이 원칙에 따르면 보내는 것은 최대한 간략하면서도 명세를 철저히 따르도록 하되, 받는 것은 설령 명세를 따르지 않더라도 처리할 수 있는 한 받아들이는 것을 지향해야 한다고 한다.\n\n이 원칙의 목적은 의미가 분명한 입력의 경우 비록 형식적으로는 빈약하더라도 이해는 할 수 있으므로 이를 수용함으로써 견고한 시스템을 설계하는 것이다. 다만 그러한 기형의 입력을 받아들임에 있어 특히 입력을 제대로 테스트하지 않을 경우, 보안 위협의 가능성이 생길 수 있다.\n\n\n\n",
+        "url": "/bookshelf/laws/dev/The-Robustness-Principle-Postels-Law/"
+      },
+    
+      {
+        "title": "The Single Responsibility Principle",
+        "excerpt": "단일 책임 원칙\n\n",
+        "content": "단일 책임 원칙\n\n위키피디아의 단일 책임 원칙\n\n\n  모든 모듈과 클래스는 단일한 책임만을 지녀야 한다.\n\n\n‘솔리드’ 원칙의 첫 번째이다. 이 원칙에 따르면 모듈이나 클래스는 반드시 오직 하나의 일만을 해야 한다. 좀 더 실용적으로 말하자면, 프로그램 기능에 있어서 하나의 작은 변화는 오로지 한 구성 요소만을 바꿔야 함을 뜻한다. 가령, 패스워드 복잡도 검증을 어떻게 처리할지 변경하는 것은 오직 프로그램의 한 곳만을 바꿔야 한다.\n\n이론적으로 이것은 코드를 더욱 견고하게 만들고 수정을 용이하게 한다. 바뀔 구성 요소가 단일 책임만을 지고 있다는 것을 안다면 그 변화에 대한 테스팅 또한 더욱 쉽기 때문이다. 앞서 말한 예시에서, 패스워드 복잡도 관련 구성 요소를 변경하는 것은 오직 패스워드 복잡도 관련 기능에만 영향을 끼친다. 여러 책임을 지고 있는 구성 요소를 바꿀 때에 어떠한 일이 일어날지 예측하는 것은 훨씬 더 어렵다.\n\n\n\n참고 :\n\n\n  객체지향 프로그래밍\n  솔리드\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/The-Single-Responsibility-Principle/"
+      },
+    
+      {
+        "title": "Wadlers Law",
+        "excerpt": "와들러의 법칙\n\n",
+        "content": "와들러의 법칙\n\nWadler’s Law on wiki.haskell.org\n\n\n  프로그래밍 언어를 설계할 때, 이 기능 목록에 나온 항목들을 논의하는 데 걸리는 총 시간은 2의 항목의 번호 제곱에 비례한다.\n\n  \n    의미론\n    구문론\n    어휘\n    주석다는 법\n  \n\n  (즉, 의미론에 1시간을 쓸 때마다 주석다는 법에 1 곱하기 2의 세제곱인 8시간을 쓴다는 뜻이다.)\n\n\n사소함의 법칙처럼, 와들러의 법칙에 따르면 언어 구조를 설계할 때 쓰이는 시간은 각 기능의 중요도에 반비례한다.\n\n\n\n참고 :\n\n\n  사소함의 법칙\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/Wadlers-Law/"
+      },
+    
+      {
+        "title": "Wheatons Law",
+        "excerpt": "휘턴의 법칙\n\n",
+        "content": "휘턴의 법칙\n\n링크\n\n공식 기념일\n\n\n  좆같이 굴지 마라.\n\n  윌 휘턴\n\n\n윌 휘턴(스타 트렉 : 더 넥스트 제너레이션, 빅뱅 이론 등에 출연한 배우)이 만든 이 단순명료하고 강력한 법칙은 전문적인 조직에서의 조화와 존중의 증대를 지향한다. 이것은 동료들과 이야기할 때, 코드 리뷰를 할 때, 다른 관점에 직면했을 때, 비평할 때, 그리고 일반적인 대부분의 사람들 간의 직업적인 상호 작용에 적용할 수 있다.\n\n\n\n",
+        "url": "/bookshelf/laws/dev/Wheatons-Law/"
+      },
+    
+      {
+        "title": "Yagni",
+        "excerpt": "YAGNI\n\n",
+        "content": "YAGNI\n\n위키피디아의 YAGNI\n\n이것은 You Aren’t Gonna Need It넌 필요 없을 거다 의 약어이다.\n\n\n  언제나 실제로 필요할 때만 구현하고, 절대 혹시 나중에 쓸지도 모르니 만들지 말아라.\n\n  (론 제프리즈) (XP의 공동 설립자이자 “Extreme Programming Installed : XP 도입을 위한 실전 입문”의 저자)\n\n\n이 익스트림 프로그래밍 (XP) 원칙은 개발자들이 오직 당장 요구될 때에만 기능을 개발하고, 미래를 예측하여 혹시 추후에 필요할지 모르는 기능을 구현하려는 시도를 피하라고 말한다.\n\n이 원칙을 고수한다면 코드베이스에서 사용되지 않는 코드의 양을 줄일 수 있을 것이고, 의미 없는 기능 구현에 시간과 노력을 쏟지 않아도 될 것이다.\n\n\n\n참고 :\n\n\n  추천 도서 : Extreme Programming Installed : XP 도입을 위한 실전 입문\n\n\n\n\n",
+        "url": "/bookshelf/laws/dev/YAGNI/"
+      },
+    
+      {
+        "title": "Goodharts Law",
+        "excerpt": "굿하트의 법칙\n\n",
+        "content": "굿하트의 법칙\n\nThe Goodhart’s Law on Wikipedia\n\n\n  관측된 통계적 규칙성은 그것을 조종할 목적으로 개입할 경우 사라져버리는 경향이 있다.\n\n  찰스 굿하트\n\n\n종종 이렇게도 인용되고는 한다 :\n\n\n  지표가 목표가 되면, 더 이상 좋은 지표가 아니게 된다.\n\n  마릴린 스트래던\n\n\n이 법칙에 따르면 지표를 기반으로 한 최적화는 측정된 결과 자체의 평가 절하로 이어진다. 과도하게 선정된 표본 지표(핵심 성과 지표)를 무작정 처리 결과에 적용하는 것은 왜곡된 효과를 낳는다. 사람들은 행위로 인한 전체적인 결과에 주목하는 대신, 특정 수치를 만족시키기 위해 시스템을 “게임화”함으로써 국소적으로만 최적화하는 경향이 있다.\n\n\n\n실제 사례 :\n\n  \n    Assert가 없는 테스트는 코드 커버리지는 높지만, 잘 테스트된 소프트웨어의 작성이라는 목적을 벗어난다.\n  \n  \n    작성한 라인 수로 개발자 퍼포먼스를 측정할 경우, 코드베이스는 받아들일 수 없는 수준으로 불어난다.\n\n    \n  \n\n\n참고 :\n\n  \n    Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour\n  \n  \n    Dilbert on bug-free software\n\n    \n  \n\n\n",
+        "url": "/bookshelf/laws/math/Goodharts-Law/"
+      },
+    
+      {
+        "title": "The Pareto Principle The 8020 Rule",
+        "excerpt": "파레토의 원리 (80 : 20의 법칙)\n\n",
+        "content": "파레토의 원리 (80 : 20의 법칙)\n\n위키피디아의 파레토 법칙\n\n\n  세상 대부분의 것들은 균등하게 분배되지 않았다.\n\n\n파레토의 원리에 의하면, 경우에 따라 대부분의 결과는 소수로부터 비롯된다:\n\n\n  어떤 소프트웨어의 80%는 총 시간 중 20%만에 쓰일 수 있다(반대로, 가장 어려운 20%를 만드는 것에 80%의 시간이 든다).\n  20%의 노력이 80%의 결과를 만들어낸다.\n  20%의 일이 80%의 수입을 창출한다.\n  20%의 버그가 80%의 크래쉬를 일으킨다.\n  20%의 기능이 사용량 중 80%를 차지한다.\n\n\n1940년대에 품질 관리의 아버지로 널리 알려진 미국계 루마니아인 공학자 조셉 주란 박사는, 품질 문제에 파레토의 원리를 적용하기 시작했다.\n\n이 원리는 또한 80 : 20의 법칙, 중요한 소수의 법칙, 혹은 희소 인자의 원리라고도 불리운다.\n\n\n\n실제 사례:\n\n\n  2002년 당시 마이크로소프트는 20%의 가장 많이 보고된 버그를 고침으로써, 윈도우즈와 오피스에서 80%의 관련 에러와 크래쉬가 사라졌다고 하였다(출처).\n\n\n\n\n",
+        "url": "/bookshelf/laws/math/The-Pareto-Principle-The-8020-Rule/"
+      },
+    
+      {
+        "title": "Hofstadters Law",
+        "excerpt": "호프스태터의 법칙\n\n",
+        "content": "호프스태터의 법칙\n\nHofstadter’s Law on Wikipedia\n\n\n  설령 호프스태터의 법칙을 고려하더라도, 일은 마치는 건 언제나 예상보다 오래 걸린다.\n\n  — 더글라스 호프스태터\n\n\n무언가가 얼마나 걸릴지 짐작할 때 이 법칙을 인용하는 것을 들을 수 있을지 모른다. 뻔한 말 같지만, 우리는 소프트웨어를 개발함에 있어 결과를 내놓기까지의 기간을 예상하는 것에 그다지 능하지 않다.\n\n이는 ‘괴델, 에셔, 바흐 : 영원한 황금 노끈‘에서 나온 말이다.\n\n\n\n참고 :\n\n\n  추천 도서 : 괴델, 에셔, 바흐 : 영원한 황금 노끈\n\n\n\n\n",
+        "url": "/bookshelf/laws/planning/Hofstadters-Law/"
+      },
+    
+      {
+        "title": "Occams Razor",
+        "excerpt": "오컴의 면도날\n\n",
+        "content": "오컴의 면도날\n\n위키피디아의 오컴의 면도날\n\n\n  실체가 필요 이상으로 늘어나면 안 된다.\n\n  오컴의 윌리엄\n\n\n오컴의 면도날은 여러 가능한 해결책 중에서, 가장 그럴 듯한 것은 가장 적은 개념과 가정이 필요한 것이라고 말한다. 그 해결책이 가장 단순하며 오직 주어진 문제만을 해결하고, 복잡성을 야기하거나 부정적인 결과를 초래하지 않는다.\n\n\n\n참고 :\n\n\n  YAGNI\n  No Silver Bullet: Accidental Complexity and Essential Complexity\n\n\n\n\n예시 :\n\n\n  Lean Software Development: Eliminate Waste\n\n\n\n\n",
+        "url": "/bookshelf/laws/planning/Occams-Razor/"
+      },
+    
+      {
+        "title": "Parkinsons Law",
+        "excerpt": "파킨슨의 법칙\n\n",
+        "content": "파킨슨의 법칙\n\nParkinson’s Law on Wikipedia\n\n\n  작업은 남은 기한을 채울 때까지 늘어난다.\n\n\n원래 맥락에서 이 법칙은 관료제에 대한 연구를 기반으로 하고 있다. 소프트웨어 개발 계획에서도 비관적으로 적용될 수 있는데, 개발자들은 기한이 다가오기 전에는 효율적이지 못하다가 기한이 가까워지면 급하게 일을 하게 되므로 결국 실제적인 데드라인을 흐릿하게 한다.\n\n만일 이 법칙이 호프스태터의 법칙과 결합된다면, 더욱 비관적인 관점에 도달할 수 있다. 작업은 남은 시간을 채우기 위해 늘어나면서도 예정된 시간보다 길어지기까지 할 것이다.\n\n참고 :\n\n\n  호프스태터의 법칙\n\n\n\n\n",
+        "url": "/bookshelf/laws/planning/Parkinsons-Law/"
+      },
+    
+      {
+        "title": "Putts Law",
+        "excerpt": "푸트의 법칙\n\n",
+        "content": "푸트의 법칙\n\nPutt’s Law on Wikipedia\n\n\n  기술은, 자신이 관리하지 않는 것들을 이해하는 자들과, 자신이 관리하는 것들을 이해하지 못하는 자들 두 가지 분류의 사람들에 의해 지배된다.\n\n\n푸트의 법칙에는 종종 다음 푸트의 귀결이 따라붙는다:\n\n\n  모든 기술 조직의 계급에서는 시간이 흐르면서 역량의 역전이 일어난다.\n\n\n이 문구에 따르면 조직 구성론에 대한 여러 가지 선택 기준과 유행 변화에 따라서, 조직에는 여러 명의 숙련된 노동 계층과 자신들이 관리하는 일의 복잡도와 어려움을 모르는 여러 명의 관리직이  생기게 된다. 이것은 피터의 원리 혹은 딜버트의 법칙과도 같은 현상 때문이다.\n\n다만 이런 류의 법칙에서 잊지 말아야 할 점은 이러한 모호한 일반화는 일부 조직에는 적용될 수도 있으나, 나머지에는 아니라는 점이다.\n\n\n\n참고 :\n\n\n  피터의 원리\n  딜버트의 법칙\n\n\n\n\n",
+        "url": "/bookshelf/laws/planning/Putts-Law/"
+      },
+    
+      {
+        "title": "The Dilbert Principle",
+        "excerpt": "딜버트의 법칙\n\n",
+        "content": "딜버트의 법칙\n\nThe Dilbert Principle on Wikipedia\n\n\n  기업들은 시스템적으로 무능력한 직원들을 관리직으로 승진시켜 업무 흐름에서 배제하는 경향이 있다.\n\n  스캇 아담스\n\n\n스캇 아담스(딜버트 만화의 작가)에 의해 만들어진 경영 개념인 딜버트의 법칙은 피터의 원리로부터 영향을 받았다. 딜버트의 법칙에 따르면, 무능한 직원들은 그들이 입힐 수 있는 피해를 최소화하기 위해 관리직으로 승진된다. 아담스는 1995년 월 스트리트 저널의 기사에서 이를 처음 설명했고, 이를 1996년 그의 경영학 서적 딜버트의 법칙에서 확장하였다.\n\n\n\n참고 :\n\n\n  피터의 원리\n  푸트의 법칙\n\n\n\n\n",
+        "url": "/bookshelf/laws/planning/The-Dilbert-Principle/"
+      },
+    
+      {
+        "title": "The Hype Cycle  Amaras Law",
+        "excerpt": "하이프 사이클 &amp; 아마라의 법칙\n\n",
+        "content": "하이프 사이클 &amp; 아마라의 법칙\n\n위키피디아의 하이프 사이클\n\n\n  우리는 새로운 기술의 효과를 단기적으로는 과대평가하고, 장기적으로는 과소평가하는 경향이 있다.\n\n  — 로이 아마라\n\n\n하이프 사이클은 미국의 정보 기술 연구 및 자문 회사인 가트너에서 시간의 흐름에 따른 기술에 대한 기대와 성숙도를 시각적으로 나타낸 것이다.\n\n\n\n\n\n(이미치 출처: Jeremykemp @영어 Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)\n\n\n\n즉, 이 사이클에 따르면 대개 신기술과 그 전망에 대하여 거품이 촉발된다. 이때 많은 팀들은 너무 빠르게 뛰어들었다가 결과물에 종종 실망하고는 한다. 이것은 어쩌면 기술이 아직 덜 성숙하기 때문이거나, 혹은 실제 세계에의 적용이 덜 이루어졌기 때문일 것이다.\n\n특정 시점이 지나고 나면 기술 자체의 역량과 실제적인 적용의 기회가 늘어나고, 마침내 생산성을 얻을 수 있게 된다. 로이 아마라는 이를 가장 간결한 문장으로 정리하였다. “우리는 새로운 기술의 효과를 단기적으로는 과대평가하고, 장기적으로는 과소평가하는 경향이 있다”.\n\n\n\n",
+        "url": "/bookshelf/laws/planning/The-Hype-Cycle--Amaras-Law/"
+      },
+    
+      {
+        "title": "The Peter Principle",
+        "excerpt": "피터의 원리\n\n",
+        "content": "피터의 원리\n\nThe Peter Principle on Wikipedia\n\n\n  사람들은 조직 내에서 자신이 “무능력해지는 계층”까지 올라가려는 경향이 있다.\n\n  로렌스 J. 피터\n\n\n로렌스 J. 피터에 의해 고안된 경영 개념인 피터의 원리에서, 일을 잘하는 사람들은 그들이 더 이상 성공적이지 못한 수준(“무능력한 정도”)까지 승진한다. 이 지점에서 그들은 심각할 정도로 성과가 없지 않는 이상 상급자가 될 수록 조직에서 쫓겨날 가능성이 더욱 낮아지며, 자신과 별로 관련된 능력이 없는 역할에 계속 남게 될 것이다. 그들을 성공적으로 이끌었던 원래 가진 능력은 새로운 일에 그다지 필요하지 않기 때문이다.\n\n이것은 특히 엔지니어에게 있어 흥미로운데, 처음엔 기술력이 깊이 요구되는 분야에서 시작하나 대개 경력이 근본적으로 다른 능력이 필요한 관리직 으로 이어지기 때문이다.\n\n\n\n참고 :\n\n\n  딜버트의-법칙\n  푸트의-법칙\n\n\n\n\n",
+        "url": "/bookshelf/laws/planning/The-Peter-Principle/"
+      },
+    
+      {
+        "title": "Dunbars Number",
+        "excerpt": "던바의 숫자\n\n",
+        "content": "던바의 숫자\n\n위키피디아의 던바의 숫자\n\n“던바의 숫자는 한 사람이 안정적인 사회적 관계(한 개인이 다른 이들에 대하여 누가 누군지 잘 알며 그들 사이의 관계도 파악할 수 있는 관계)를 유지할 수 있는 인지적 최대치로서 제시된 수이다.” 정확한 수치에 대해서는 의견이 분분하다. “…(던바는) 인간은 오직 150명까지의 안정적인 관계만을 편안히 유지할 수 있다”고 주장하였다. 그는 좀 더 사회적인 맥락에서 말하길, “바에서 우연히 만났을 때 어색하지 않게 같이 술을 마실 수 있는 사람의 수”라고 하였다. 일반적으로 100에서 250 사이라고 추정한다.\n\n개개인 간의 안정적인 관계처럼, 개발자와 코드베이스의 관계도 유지하려면 노력이 든다. 크고 복잡한 프로젝트 혹은 여러 프로젝트를 마주할 때, 우리는 규모를 확장하기 위해 관례, 정책, 그리고 만들어진 절차를 따른다. 던바의 숫자는 사무실이 커질 때만 염두해둘 것이 아니라 팀이 들일 노력의 범위를 얼마나로 할지, 언제 모델링과 계획 자동화 툴에 투자할지 등을 정하는 데에도 중요하다. 엔지니어링 측면에서 보면, 이 숫자는 당직(On-call : 시스템 장애 발생을 대비하여 대기함)으로 설 수 있는 프로젝트의 수이다.\n\n\n\n참고 :\n\n\n  콘웨이의 법칙\n\n\n\n\n",
+        "url": "/bookshelf/laws/psychology/Dunbars-Number/"
+      },
+    
+      {
+        "title": "Hanlons Razor",
+        "excerpt": "핸런의 면도날\n\n",
+        "content": "핸런의 면도날\n\n위키피디아의 핸런의 면도날\n\n\n  어리석음으로 충분히 설명이 되는 일을 악의의 탓으로 돌리지 말라.\n\n  — 로버트 J. 핸런\n\n\n이 법칙에 따르면 부정적인 결과를 낳는 행동은 악의로부터 비롯된 것이라기보다는, 행동과 그것이 불러올 파장에 대한 몰이해 때문이다.\n\n\n\n",
+        "url": "/bookshelf/laws/psychology/Hanlons-Razor/"
+      },
+    
+      {
+        "title": "Murphys Law  Sods Law",
+        "excerpt": "머피의 법칙 / 소드의 법칙\n\n",
+        "content": "머피의 법칙 / 소드의 법칙\n\n위키피디아의 머피의 법칙\n\n\n  잘못될 수 있는 일은 잘못될 것이다.\n\n\n에드워드 A. 머피, Jr의 머피의 법칙 에 따르면 무언가가 잘못될 수 있다면, 그것은 잘못될 것이다.\n\n이는 개발자들 사이에서 흔한 격언이다. 때로는 개발 시, 테스팅 때, 심지어 프로덕션 단계에서 예상치 못한 일이 발생한다. 이는 (영국에서는 더 흔한) 소드의 법칙 과 관련이 있다:\n\n\n  만약 무언가가 잘못될 수 있다면, 그것은 가장 안 좋은 때에, 잘못될 것이다.\n\n\n이 ‘법칙’들은 대개 농담처럼 이야기된다. 그러나, 확증편향 이나 선택편향 과도 같은 현상들은 이 법칙들을 과도하게 믿게 만들 수 있다(잘 되는 대부분의 경우는 인지하지 못하나 실패는 알기 쉽고 더욱 눈에 띠기 때문에).\n\n\n\n참고 :\n\n\n  확증편향\n  선택편향\n\n\n\n\n",
+        "url": "/bookshelf/laws/psychology/Murphys-Law--Sods-Law/"
+      },
+    
+      {
+        "title": "The Broken Windows Theory",
+        "excerpt": "깨진 유리창 이론\n\n",
+        "content": "깨진 유리창 이론\n\n위키피디아의 깨진 유리창 이론\n\n깨진 유리창 이론에 따르면, 눈에 띠는 범죄의 흔적 혹은 환경에 대한 소홀함은 더욱 심각한 범죄와 시설의 감가로 이어진다.\n\n이 이론을 소프트웨어 개발에 적용해보면, 질 낮은 코드(혹은 기술 부채)는 품질을 향상하려는 노력이 무시되거나 평가절하된다는 인식을 줄 수 있게 되고, 결국 더욱 조악한 품질의 코드를 낳게 된다. 이 효과가 퍼지며 시간이 지남에 따라 더욱 큰 질적 저하가 나타나게 된다.\n\n\n\n참고 :\n\n\n  기술 부채\n\n\n\n\n예시 :\n\n\n  The Pragmatic Programming: Software Entropy\n  Coding Horror: The Broken Window Theory\n  OpenSource: Joy of Programming - The Broken Window Theory\n\n\n\n\n",
+        "url": "/bookshelf/laws/psychology/The-Broken-Windows-Theory/"
+      },
+    
+      {
+        "title": "a-ux-law",
+        "excerpt": "a-ux-law\n",
+        "content": "a-ux-law\n",
+        "url": "/bookshelf/laws/ux/a-ux-law/"
       },
     
   
     
     
-      {
-        "title": "Collection - Items",
-        "excerpt": "\n",
-        "content": "\n",
-        "url": "/bookshelf/items/items/"
-      },
-    
   
     
-    
-      {
-        "title": "Collection - Missions",
-        "excerpt": "Welcome\n\n",
-        "content": "Welcome\n\nHello world, this is my first Jekyll blog post.\n\nI hope you like it!\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
-        "url": "/bookshelf/missions/missions/"
-      },
-    
-  
-    
-    
-      {
-        "title": "Collection - Monsters",
-        "excerpt": "Welcome\n\n",
-        "content": "Welcome\n\nHello world, this is my first Jekyll blog post.\n\nI hope you like it!\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
-        "url": "/bookshelf/monsters/monsters/"
-      },
-    
-  
-    
-    
-  
-    
-    
-      {
-        "title": "Collection - Production",
-        "excerpt": "Welcome\n\n",
-        "content": "Welcome\n\nHello world, this is my first Jekyll blog post.\n\nI hope you like it!\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
-        "url": "/bookshelf/production/production/"
-      },
-    
-  
-    
-    
-      {
-        "title": "Quest 1",
-        "excerpt": "Art\n",
-        "content": "Art\n",
-        "url": "/bookshelf/quests/art/quest1/"
-      },
-    
-      {
-        "title": "Quest 5",
-        "excerpt": "Event\n",
-        "content": "Event\n",
-        "url": "/bookshelf/quests/event/quest5/"
-      },
-    
-      {
-        "title": "Quest 4",
-        "excerpt": "Mainstream\n",
-        "content": "Mainstream\n",
-        "url": "/bookshelf/quests/mainstream/quest4/"
-      },
-    
-      {
-        "title": "Quest 2",
-        "excerpt": "Normal\n",
-        "content": "Normal\n",
-        "url": "/bookshelf/quests/normal/quest2/"
-      },
-    
-      {
-        "title": "Collection - Quests",
-        "excerpt": "\n",
-        "content": "\n",
-        "url": "/bookshelf/quests/quests/"
-      },
-    
-      {
-        "title": "Quest 3",
-        "excerpt": "Repetitive\n",
-        "content": "Repetitive\n",
-        "url": "/bookshelf/quests/repetitive/quest3/"
-      },
-    
-  
-    
-    
-      {
-        "title": "Prolog - computer science",
-        "excerpt": "\n",
-        "content": "\n",
-        "url": "/bookshelf/skills/computer-science/"
-      },
-    
-      {
-        "title": "Collection - Skills",
-        "excerpt": "\n",
-        "content": "\n",
-        "url": "/bookshelf/skills/skills/"
-      },
-    
-  
-    
-    
-      {
-        "title": "law 5",
-        "excerpt": "law 5\n",
-        "content": "law 5\n",
-        "url": "/bookshelf/talent/backend/law5/"
-      },
-    
-      {
-        "title": "law 4",
-        "excerpt": "law 4\n",
-        "content": "law 4\n",
-        "url": "/bookshelf/talent/design/law4/"
-      },
-    
-      {
-        "title": "law 3",
-        "excerpt": "law 3\n",
-        "content": "law 3\n",
-        "url": "/bookshelf/talent/dev/talent3/"
-      },
-    
-      {
-        "title": "law 2",
-        "excerpt": "law 2\n",
-        "content": "law 2\n",
-        "url": "/bookshelf/talent/frontend/talent2/"
-      },
-    
-      {
-        "title": "Collection - talent",
-        "excerpt": "\n",
-        "content": "\n",
-        "url": "/bookshelf/talent/talent/"
-      },
-    
-      {
-        "title": "law 1",
-        "excerpt": "law 1\n",
-        "content": "law 1\n",
-        "url": "/bookshelf/talent/uiux/talent1/"
-      },
-    
-  
-    
-    
-      {
-        "title": "Collection - Weapons",
-        "excerpt": "Welcome\n\n",
-        "content": "Welcome\n\nHello world, this is my first Jekyll blog post.\n\nI hope you like it!\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
-        "url": "/bookshelf/weapons/weapons/"
-      },
     
   
   
@@ -183,17 +333,24 @@
   },
   
   {
+    "title": "Collection - laws",
+    "excerpt": "\n",
+    "content": "\n",
+    "url": "/bookshelf/laws/"
+  },
+  
+  {
+    "title": "Collection - Skills",
+    "excerpt": "\n",
+    "content": "\n",
+    "url": "/bookshelf/skills/"
+  },
+  
+  {
     "title": "Foam tips",
     "excerpt": "\n",
     "content": "Foam tips\n\nFor up-to-date tips, see Foam Recipes.\n",
     "url": "/bookshelf/foam-tips/"
-  },
-  
-  {
-    "title": "Inbox",
-    "excerpt": "\n",
-    "content": "Inbox\n\n\n  Here you can write disorganised notes to be categorised later\n  Bullet points are useful, but it could be free form text as well\n  Sometimes it’s better to just get things off your mind quickly, rather than stop to think where it belongs\n  But don’t let this list get too long\n  Move information to more specific documents and link to them.\n    \n      This helps you navigate between documents quickly\n      For example, you can Cmd+Click this: [[todo]]\n    \n  \n  Some notes don’t end up making sense the next day\n  That’s ok, you can just delete them!\n    \n      You can always find them in your git history, if you really need it!\n[//begin]: # “Autogenerated link references for markdown compatibility”\n[todo]: todo “Todo”\n[//end]: # “Autogenerated link references”ces”\n    \n  \n\n",
-    "url": "/bookshelf/inbox/"
   }
   
 ]

@@ -5,6 +5,8 @@ url: https://mindulle.github.io
 
 collections_dir: collection
 collections:
+  anti-pattern:
+    output: true
   design-pattern:
     output: true
   laws:
